@@ -1,0 +1,68 @@
+You are required to submit the GitHub repository link, ensuring it includes a README file. The template for the README file can also be found in the document
+
+Readme : Link
+
+Assignment: Book My Movie
+Overview
+Your task is to develop a dynamic movie ticket booking system using React. This application will simulate the process of selecting a specific number of tickets, choosing seats from a visual representation of a theater's seating arrangement, and finalizing the booking with user details. The project will test your understanding of React fundamentals, including state management, component-based architecture, event handling, and conditional rendering.
+
+Functional Requirements
+Seating Arrangement Visualization:
+
+Implement a component to visually display the theater's seating arrangement, allowing users to see available, selected, and blocked/booked seats. The theater consists of 6 rows (A-F), with Rows A-E having 8 seats each and Row F having 6 seats.
+Ticket Booking Form:
+
+Create a form that includes:
+An input field for the user's name.
+A dropdown menu for selecting the number of tickets (1-8).
+A "Book" button to submit the booking.
+Seat Selection:
+y
+Allow users to select seats according to the number of tickets chosen. Implement functionality for selecting and deselecting seats within the visual representation.
+Booking Validation and Confirmation:
+
+The "Book" button should only be enabled when:
+A username is provided.
+The number of seats selected matches the number of tickets chosen.
+On booking, update the visual representation to reflect the newly booked seats as blocked.
+Booking Details Display:
+
+Show a summary of all bookings, including usernames and their selected seats.
+Display the total number of seats, the count of booked seats, and the count of available seats.
+Note : For inspiration, Check out BookMyShow website.
+
+Technical Requirements
+State Management: Use React's state and props effectively to manage application data, including seating availability, user input, and booking details.
+
+Component Design: Build reusable components, keeping the principles of modularity and reusability in mind. At a minimum, your application should include components for the booking form, seat selector, and information display.
+
+User Feedback: Implement clear user feedback for actions, such as selecting seats or attempting to book more seats than available. Optional: incorporate alerts or messages for important notifications.
+
+Styling: Apply CSS to enhance the visual layout and user experience of your application. Ensure the seating arrangement is easily understandable, and selected/blocked seats are clearly distinguishable.
+
+Advanced Challenges (Optional)
+For those seeking additional challenges, consider implementing the following features:
+
+Persistence:
+
+Use localStorage allowing data to persist across page reloads.
+Or Use a simple backend to store booking information, allowing data to persist across page reloads.
+User Authentication:
+
+Add a simple login system that requires users to sign in before making a booking.
+Add OAuth
+Responsive Design: Ensure your application is responsive and provides a consistent user experience across different devices and screen sizes.
+
+Submission Guidelines
+Your project should be submitted as a link to a GitHub repository ( add in masai repo ). Ensure your repository contains all source files and a README.md with instructions on how to set up and run your application.
+
+Deploy the same project and also share with us the deployed link.
+
+Structure your project in a logical and organized manner, your code should be easy to navigate.
+
+Document your code with comments to explain your logic and decisions, especially for complex parts of your application.
+
+Ensure your application meets all functional requirements and test it thoroughly to catch and fix any bugs.
+
+This assignment is designed to test your React skills and your ability to create a functional, user-friendly web application. Focus on writing clean, efficient code and providing a smooth user experience. Good luck!
+
